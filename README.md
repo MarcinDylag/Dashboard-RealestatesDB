@@ -17,6 +17,19 @@ ___
 ##### - folder Faktury: służy do przechowywania wygenerowanych faktur
 ##### - folder Raporty: służy do przechowywania wygenerowanych raportów
 ___
+#### Zanim zaczniesz korzystać - zainstaluj dodatki:
+1) Dodaj WinDatePicker z folderu Add-Ins do swojego Excela. Pełna instrukcja instalacji - 
+[Ron de Bruin Excel Automation](https://www.rondebruin.nl/win/addins/datepicker.htm)
+2) Następnie w edytorze VBA (ALT + F11) w zakładce Tools -> References upewnij się, że zaznaczyłeś następujące opcje:
+    - Visual Basic For Applications,
+    - Microsoft Excel 16.0 Object Library,
+    - OLE Automation,
+    - Microsoft Office 16.0 Object Library,
+    - Microsoft ActiveX Data Objects 6.1 Library,
+    - Nicrosoft Outlook 16.0 Object Library,
+    - Microsoft Forms 2.0 Object Librarym
+    - Microsoft Word 16.0 Object Library
+___
 #### Zasada działania:
 1) Wczytywanie danych i ew. korekta:
     - W pliku MainMenu.xlsm w arkuszu Menu główne za pomocą przycisku "Wczytaj dane" ładujemy aktualne dane najemców, nieruchomości, umów oraz właścicieli - niezbędne do wystawienia faktur. Tutaj możemy też zmienić ręcznie dowolne dane, tj. kwotę konkretnej faktury lub sposób płatności.
